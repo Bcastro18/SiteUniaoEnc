@@ -1,0 +1,65 @@
+#navHome
+{
+       background-color: #228B22; 
+       height: 140px; 
+       padding: 60px 0px 60px 0px;
+}
+
+#footer
+{
+       background-color: #228B22; 
+       color: white;
+       height: 250px; 
+       padding: 60px 40px 60px 0px;>
+}
+
+#qsomos
+{
+	   background-color: white; 
+       height: 520px; 
+
+}
+
+#cidAtend
+{
+	   background-color:#228B22; 
+       height: 430px; 
+
+}
+
+#duvFreq
+{
+       background-color:white; 
+       height: 560px; 
+	   padding: 20px 60px 20px 60px;
+}
+
+#h3df{
+	color: #008B45;
+}
+
+
+#aux3
+{
+	background-color: white;
+	color: green;
+	margin: 0px 40px 10px 20px;  
+	padding: 0px 60px 0px 60px;
+	height: 30px; 
+
+}
+
+#selEstado, #selCidade{
+	height: 40px;
+	width: 190px;
+	margin: 0px 40px 10px 20px; 
+	background-color: #70db70;
+	color: black;
+	font-size: medium;
+}
+
+a{
+    color: white;
+}
+
+
