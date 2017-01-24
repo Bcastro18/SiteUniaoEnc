@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){	
 	$("#selEstado").change(function(){
 		
@@ -6,33 +8,21 @@ $(document).ready(function(){
 		if(estado == "DF"){
 				$('#selCidade').empty();
 				$('#mapaImg').empty();
-				$('#mapaImg').append('<img id="mapaDf" src="images/mapa-df.png" width="330" height="363" border="0"/>')
+				$('#mapaImg').append('<img id="mapaDf" src="images/mapa-df.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 				$('#selCidade').append($('<option></option>').val("DF1").html("Brasilia"));
-				$('#selCidade').append($('<option></option>').val("DF2").html("Brasilândia"));
-				$('#selCidade').append($('<option></option>').val("DF3").html("Ceilândia"));
-				$('#selCidade').append($('<option></option>').val("DF4").html("Cruzeiro"));
-				$('#selCidade').append($('<option></option>').val("DF5").html("Gama"));
-				$('#selCidade').append($('<option></option>').val("DF6").html("Guara"));
-				$('#selCidade').append($('<option></option>').val("DF7").html("Lago Norte"));
-				$('#selCidade').append($('<option></option>').val("DF8").html("Lago Sul"));
-				$('#selCidade').append($('<option></option>').val("DF9").html("Nucleo Bandeirante"));
-				$('#selCidade').append($('<option></option>').val("DF10").html("Paranoa"));
-				$('#selCidade').append($('<option></option>').val("DF11").html("Recanto das Emas"));
-				$('#selCidade').append($('<option></option>').val("DF12").html("Samambaia"));
-				$('#selCidade').append($('<option></option>').val("DF13").html("São Sebastião"));
-				$('#selCidade').append($('<option></option>').val("DF14").html("Taguatinga"));
-				$('#selCidade').append($('<option></option>').val("DF15").html("Rodoviária (Nova)"));
+				$('#selCidade').append($('<option></option>').val("DF2").html("Taguatinga"));
+				$('#selCidade').append($('<option></option>').val("DF3").html("Rodoviária (Nova)"));
 				
 		
 		}else if(estado == "XX" ){		
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapa" src="images/mapa.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapa" src="images/mapa.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 				
 		}else if(estado == "ES" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaEs" src="images/mapa-es.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaEs" src="images/mapa-es.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("ES1").html("Alegre"));
 			$('#selCidade').append($('<option></option>').val("ES2").html("Bom Jesus do norte"));
 			$('#selCidade').append($('<option></option>').val("ES3").html("Cachoeiro de Itapemirim"));
@@ -52,7 +42,7 @@ $(document).ready(function(){
 		}else if(estado == "GO" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaGo" src="images/mapa-go.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaGo" src="images/mapa-go.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("GO1").html("Anápolis"));
 			$('#selCidade').append($('<option></option>').val("GO2").html("Aparecida de Goiânia"));
 			$('#selCidade').append($('<option></option>').val("GO3").html("Bom Jesus"));
@@ -94,7 +84,7 @@ $(document).ready(function(){
 		}else if(estado == "MS" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaMs" src="images/mapa-ms.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaMs" src="images/mapa-ms.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("MS1").html("Campo Grande"));
 			$('#selCidade').append($('<option></option>').val("MS2").html("Dourados"));
 			$('#selCidade').append($('<option></option>').val("MS3").html("Nova Alvorada do Sul"));
@@ -104,13 +94,13 @@ $(document).ready(function(){
 		}else if(estado == "MT" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaMt" src="images/mapa-mt.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaMt" src="images/mapa-mt.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("MT1").html("Barra do Garça"));
 		
 		}else if(estado == "MG" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaMg" src="images/mapa-mg.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaMg" src="images/mapa-mg.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("MG1").html("Araguari"));
 			$('#selCidade').append($('<option></option>').val("MG2").html("Araxá"));
 			$('#selCidade').append($('<option></option>').val("MG3").html("Belo Horizonte"));
@@ -158,7 +148,7 @@ $(document).ready(function(){
 		}else if(estado == "PR" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaPr" src="images/mapa-pr.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaPr" src="images/mapa-pr.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("PR1").html("Abatiá"));
 			$('#selCidade').append($('<option></option>').val("PR1").html("Andirá"));
 			$('#selCidade').append($('<option></option>').val("PR1").html("Apucarana"));
@@ -220,7 +210,7 @@ $(document).ready(function(){
 		}else if(estado == "RJ" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaRj" src="images/mapa-rj.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaRj" src="images/mapa-rj.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("RJ1").html("Angra dos Reis"));
 			$('#selCidade').append($('<option></option>').val("RJ2").html("Campos de Goytacazes"));
 			$('#selCidade').append($('<option></option>').val("RJ3").html("Parati"));
@@ -238,13 +228,13 @@ $(document).ready(function(){
 		}else if(estado == "RS" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaRs" src="images/mapa-rs.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaRs" src="images/mapa-rs.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("RS1").html("Porto Alegre"));
 		
 		}else if(estado == "SC" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaSc" src="images/mapa-sc.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaSc" src="images/mapa-sc.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("SC1").html("Joinville"));
 			$('#selCidade').append($('<option></option>').val("SC2").html("Florianópolis"));
 			
@@ -252,19 +242,15 @@ $(document).ready(function(){
 		}else if(estado == "SP" ){
 			$('#selCidade').empty();
 			$('#mapaImg').empty();
-			$('#mapaImg').append('<img id="mapaSp" src="images/mapa-sp.png" width="330" height="363" border="0"/>')
+			$('#mapaImg').append('<img id="mapaSp" src="images/mapa-sp.png" style="text-align:center; margin: 40px 0px 0px 40px" width="340" height="373" border="0"/>')
 			$('#selCidade').append($('<option></option>').val("SP1").html("Adamantina"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Águas de Santa Bárbara"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Águas de São Pedro"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Alto da Serra - Angatuba"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Americana"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Amparo"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Andradina"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Araçatuba"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Araraquara"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Araras"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Artur Nogueira"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Arujá"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Assis"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Avaré"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Bady Bassit"));
@@ -277,13 +263,8 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Bocaina"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Bomfim Paulista"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Brotas"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Caçapava"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Cafelândia"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Caieiras"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Cajamar"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Campinas"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Campo Limpo Paulista"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Capivari"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Carapicuíba"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Castilho"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Catanduva"));
@@ -291,22 +272,14 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Cerqueira César"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Cerquilho"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Chavantes"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Cordeirópolis"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Coronel Macedo"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Cosmópolis"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Cotia"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Cravinhos"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Diadema"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Elias Fausto"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Embú"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Embú das Artes"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Engenheiro Coelho"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Fartura"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Ferraz de Vasconcelos"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Franca"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Francisco Morato"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Franco da Rocha"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Garça"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Guaraçaí"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Guararapes"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Guarulhos"));
@@ -320,18 +293,14 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Itapetininga"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Itapeva"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Itapevi"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Itapira"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Itaporanga"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Itaquaquecetuba"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Jaboticabal"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Jacareí"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Jaguariúna"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Jandira"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Jardinópolis"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Jaú"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("José Bonifácio"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Jundiaí"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Leme"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Limeira"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Lins"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Manduri"));
@@ -340,8 +309,6 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Mirassol"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Mirandópolis"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Mogi das Cruzes"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Mogi Guaçu"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Mogi Mirim"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Nova Odessa"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Sumaré"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Oriente"));
@@ -356,7 +323,6 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Piracicaba"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Piraju"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Pirajuí"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Pirassununga"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Poá"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Pompéia"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Posto Trevo Itaí/Avaré"));
@@ -365,21 +331,19 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Ribeirão Pires"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Ribeirão Preto"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Rio das Pedras"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Saltinho"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Santana do Parnaíba"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Maria da Serra"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Santo André"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Santos"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São Bernardo do Campo"));
+			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Bárbara D'Oeste"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São Caetano do Sul"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São José do Rio Preto"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São Manuel"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São Paulo"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("São Pedro"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Saltinho"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santana do Parnaíba"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Bárbara D'Oeste"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Cruz do Rio Pardo"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Isabel"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Maria da Serra"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santa Cruz do Rio Pardo"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santo André"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Santos"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Sarutaiá"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Sertãozinho"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Sorocaba"));
@@ -388,16 +352,9 @@ $(document).ready(function(){
 			$('#selCidade').append($('<option></option>').val("SP1").html("Taboão da Serra"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Taguaí"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Taquarituba"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Taubaté"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Tietê"));
 			$('#selCidade').append($('<option></option>').val("SP1").html("Torrinha"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Tupã"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Valinhos"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Valparaíso"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Várzea Paulista"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Vinhedo"));
-			$('#selCidade').append($('<option></option>').val("SP1").html("Votorantim"));
-		}
+			}
 		
 		
 		
@@ -405,4 +362,3 @@ $(document).ready(function(){
 		
 	});
 })
-

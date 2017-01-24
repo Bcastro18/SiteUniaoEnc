@@ -1,3 +1,4 @@
+
 #navHome
 {
        background-color: #228B22; 
@@ -16,22 +17,22 @@
 #qsomos
 {
 	   background-color: white; 
-       height: 520px; 
+       height: 540px; 
 
 }
 
 #cidAtend
 {
 	   background-color:#228B22; 
-       height: 430px; 
+       height: 470px; 
 
 }
 
 #duvFreq
 {
        background-color:white; 
-       height: 560px; 
-	   padding: 20px 60px 20px 60px;
+       height: 680px; 
+	   padding: 40px 60px 40px 60px;
 }
 
 #h3df{
@@ -45,14 +46,14 @@
 	color: green;
 	margin: 0px 40px 10px 20px;  
 	padding: 0px 60px 0px 60px;
-	height: 30px; 
+	height: 60px; 
 
 }
 
 #selEstado, #selCidade{
 	height: 40px;
 	width: 190px;
-	margin: 0px 40px 10px 20px; 
+	
 	background-color: #70db70;
 	color: black;
 	font-size: medium;
@@ -61,5 +62,4 @@
 a{
     color: white;
 }
-
 
