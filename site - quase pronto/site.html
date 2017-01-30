@@ -21,10 +21,10 @@
 		<div class="container-fluid">
   			<div class="row">
 				<div class="col-md-4" style="background-color:#228B22; padding: 0px 0px 0px 40px"><img src="images/LogoUniao.png" height="140" width="310"></div>
-				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#quemsomos">Quem somos?</div>
-				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#cidadesatendidas">Cidades atendidas</a></div>
-				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#DuvFreq">Perguntas frequentes</a></div>
-	 			<div class="col-md-2" id="navHome" style="text-align:center"><a href="#contato">Contato</a></div>
+				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#quemsomos"><h4>Quem somos?</h4></div>
+				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#cidadesatendidas"><h4>Cidades atendidas</a></div>
+				<div class="col-md-2" id="navHome" style="text-align:center"><a href="#DuvFreq"><h4>Perguntas frequentes</h4></a></div>
+	 			<div class="col-md-2" id="navHome" style="text-align:center"><a href="#contato"><h4>Contato</h4></a></div>
   			</div>
 		</div>
 		
@@ -84,14 +84,14 @@
 				</div>
 				<div class="row" style="padding: 0px 30px 30px 60px; text-align: center">
 						<p class="bg-success">
-							<h5>A Uni&atilde;o central de Encomendas &eacute; uma empresa que une algumas das maiores transportadoras da cidade de Sorocaba.
+							<h4>A Uni&atilde;o central de Encomendas &eacute; uma empresa que une algumas das maiores transportadoras da cidade de Sorocaba.
 						Terceirizada pelas grandes Naex, Piracicabana Cargas, Starex, Calvip e Tex Encomendas, possu&iacute;mos grande alcance 
 						no territ&oacute;rio nacional com o transporte de encomendas fracionadas e cargas fechadas. H&aacute; 7 anos no mercado vem se destacando
 						com a agilidade na presta&ccedil;&atilde;o dos servi&ccedil;os, o bom pre&ccedil;o e a qualidade no atendimento.
-							</h5>
+							</h4>
 						</p>
 						<p>
-							<h5>Nossa infra-estrutura de transporte dentro da cidade de Sorocaba &eacute; feita com:</h5>					
+							<h4>Nossa infra-estrutura de transporte dentro da cidade de Sorocaba &eacute; feita com:</h4>					
 						</p>
 
 				</div>
@@ -118,47 +118,41 @@
 			</div>
 		</section>
 		<section id="cidadesatendidas">
-			<div id="cidAtend">
-				
-				<div class="col-md-6" id="mapaImg">
-					<div class="row">						
-						<img id="mapa" style="text-align:center; margin: 40px 0px 0px 40px" src="images/mapa.png" width="340" height="373" border="0">
-					</div>
+				<div id="cidAtend" class="col-md-6" id="mapaImg">					
+						<img id="mapa" style="text-align:center; margin: 40px 0px 0px 100px; padding: 0px 0px 0px 20px" src="images/mapa.png" width="340" height="373" border="0">
 				</div>
-				
-				<div class="col-md-6" style="text-align:center; margin-top:100px;">
-					<div class="row-fluid">
-						<h4 style="color:white">atendemos em mais de</h4>
-						<h1 style="color:orange"><b>400 cidades</b> do Brasil</h1>
-						<h5 style="color:white">Consulte a disponibilidade do servi&ccedil;o em nossa listagem.</h5>
+				<div class="col-md-6" id="cidAtend">
+					<div class="row-fluid" style="text-align:center; margin: 0px 0px 0px 0px;padding: 50px 30px 0px 10px;">
+							<h4 style="color:white">atendemos em mais de</h4>
+							<h1 style="color:orange"><b>400 cidades</b> do Brasil</h1>
+							<h5 style="color:white">Consulte a disponibilidade do servi&ccedil;o em nossa listagem.</h5>
 					</div>
-					<div class="row-fluid" style="padding: 50px 0px 0px 10px;">
-						<select id="selEstado">
-										<option value = "XX">Selecione um estado</option>
-										<option value = "DF">Distrito Federal</option>
-										<option value = "ES">Esp&iacute;rito Santo</option>
-										<option value = "GO">Goi&aacute;s</option>
-										<option value = "MT">Mato Grosso</option>
-										<option value = "MS">Mato Grosso do Sul</option>
-										<option value = "MG">Minas Gerais</option>
-										<option value = "PR">Paran&aacute;</option>
-										<option value = "RJ">Rio de Janeiro</option>
-										<option value = "RS">Rio Grande do Sul</option>
-										<option value = "SC">Santa Catarina</option>
-										<option value = "SP">S&atilde;o Paulo</option>
-						</select>
+					<div class="row-fluid" style="text-align:center; padding: 50px 30px 0px 10px;">
+							<select id="selEstado">
+											<option value = "XX">Selecione um estado</option>
+											<option value = "DF">Distrito Federal</option>
+											<option value = "ES">Esp&iacute;rito Santo</option>
+											<option value = "GO">Goi&aacute;s</option>
+											<option value = "MT">Mato Grosso</option>
+											<option value = "MS">Mato Grosso do Sul</option>
+											<option value = "MG">Minas Gerais</option>
+											<option value = "PR">Paran&aacute;</option>
+											<option value = "RJ">Rio de Janeiro</option>
+											<option value = "RS">Rio Grande do Sul</option>
+											<option value = "SC">Santa Catarina</option>
+											<option value = "SP">S&atilde;o Paulo</option>
+							</select>
 
-						<select id="selCidade">
-							<option value = "XX">Cidades atendidas</option>
-						</select>
+							<select id="selCidade">
+								<option value = "XX">Cidades atendidas</option>
+							</select>
 
 					</div>
 				</div>
-			</div>
 		</section>
 		<section id="DuvFreq">
-			<div id="duvFreq">
-			  <div class="col-md-12">
+			<div id="duvFreq" class="col-md-12">
+			  
 				<div class="row-fluid">
 					<h1 style="color:green"><b>Tire suas d&uacute;vidas</b></h1></br>
 					<h4 id="h3df"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Voc&ecirc;s possuem o servi&ccedil;o de entrega e coleta?</h4>
@@ -197,14 +191,12 @@
 				<div class="row-fluid" style="color:green">
 					<h2><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contate-nos via fone ou e-mail:</h2>
 				</div>
-			   </div>
 			</div>
 		</section>
 
 		
 		<section id="contato">
-		<div id="footer">
-			<div class="container">
+		<div id="footer" class="col-md-12">
 				<address>
   					<strong>Uni&atilde;o Central de Encomendas</strong><br>
 						Rua Comendador Pereira In&aacute;cio, 100<br>
@@ -217,12 +209,8 @@
 					<a href="mailto:#">uniaocentraldecargas@gmail.com</a>
 					</br>
 				</address>
-		    </div>
 		</div>
 		</section>
-
-		
-
 		<script src="js/jquery.min.js"></script>
   		<script src="js/bootstrap.min.js"></script>
 		<script language="text/javascript" src="js/jqueryDrop.js"></script>

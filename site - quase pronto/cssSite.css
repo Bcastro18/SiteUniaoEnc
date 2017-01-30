@@ -11,7 +11,7 @@
        background-color: #228B22; 
        color: white;
        height: 250px; 
-       padding: 60px 40px 60px 0px;>
+       padding: 60px 40px 60px 40px;>
 }
 
 #qsomos
@@ -24,15 +24,15 @@
 #cidAtend
 {
 	   background-color:#228B22; 
-       height: 470px; 
-
+       height: 450px;
 }
 
 #duvFreq
 {
        background-color:white; 
-       height: 680px; 
-	   padding: 40px 60px 40px 60px;
+       height: 675px; 
+	   padding: 10px 0px 0px 30px;
+	   margin: 0px 0px 0px 30px;
 }
 
 #h3df{
